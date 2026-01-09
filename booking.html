@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Service – FIXTINOW</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-protected="true">
+
+<div class="auth-wrapper">
+  <div class="auth-card">
+    <h2>Book a Service</h2>
+
+    <form id="bookingForm">
+      <select id="service" required>
+        <option value="">Select Service</option>
+        <option>Plumbing</option>
+        <option>Electrical</option>
+        <option>Cleaning</option>
+        <option>AC Repair</option>
+      </select>
+
+      <input type="date" id="date" required>
+      <input type="time" id="time" required>
+      <textarea id="address" placeholder="Address" required></textarea>
+
+      <button class="btn btn-primary">Confirm Booking</button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
