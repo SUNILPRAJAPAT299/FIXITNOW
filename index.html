@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fixitnow</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>FIXTINOW – Home Services</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="login-container">
-     <h2>Fixitnow</h2>
 
-<form action="">
-    <div class="inputGroup">
-        <input type="email" name="email" id="email"placeholder=""required>
-        <label for="email">Email</label>
-    </div>
+<header class="header">
+  <div class="container">
+    <h2>FIXTINOW</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="booking.html">Book Service</a>
+      <a href="login.html" id="loginLink">Login</a>
+      <span id="userArea"></span>
+    </nav>
+  </div>
+</header>
 
-    <div class="inputGroup">
-        <input type="password" name="password" id="password"placeholder=""required>
-          <label for="password">password</label>
-    </div>
-       <button type="sumbit"  class="sumbit-btn">sign In</button>
+<section class="hero">
+  <div class="container">
+    <h1>Your Home, Expertly Handled</h1>
+    <p>Professional home services at your doorstep</p>
+  </div>
+</section>
 
-       <div class="links">
-        <a href="#">Forgot Password</a> |
-        <a href="#">sign up</a>
-        
-       </div>
+<section class="section">
+  <h2>Our Services</h2>
+  <div class="grid container">
+    <div class="card">Plumbing</div>
+    <div class="card">Electrical</div>
+    <div class="card">Cleaning</div>
+    <div class="card">AC Repair</div>
+  </div>
+</section>
 
-</form>
-     </div>
+<script src="script.js"></script>
 </body>
-
 </html>
